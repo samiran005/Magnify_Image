@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
+.mainImage {
+    width: 900px;
+    aspect-ratio: 2/1;
+    background-color: tomato;
+    border: 2px solid black;
+    margin: 50px auto;
+
+    background-image: url(./image.jpg);
+    background-size: 900px;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+
+    position: relative;
+
+    overflow: hidden;
+}
+
+.mainImage:hover {
+    background-size: 1200px;  
+}
